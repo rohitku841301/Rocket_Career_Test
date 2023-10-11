@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  background-color: #2f1893;
+}
+
+.header {
+  width: 70%;
+  margin: auto;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 65px;
+}
+
+.header h1 {
+  font-size: 24px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header ul a {
+  color: #ffffff;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0px 14px 0px 14px;
+}
+
+.header ul a button {
+  background: #e93a7d;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+.left-container {
+  color: #ffffff;
+  width: 45%;
+  margin-top: 30px;
+}
+
+.left-container h1 {
+  font-size: 58px;
+}
+
+.left-container p {
+  font-size: 22px;
+  margin-top: 30px;
+}
+
+.left-container button {
+  font-size: 18px;
+  background: #e93a7d;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  margin-top: 40px;
+}
+
+.right-container {
+  background-color: #ebeaed;
+  width: 45%;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.form h1 {
+  font-size: 42px;
+  margin: 30px;
+  color: #1e0e62;
+}
+
+.form input {
+  width: 70%;
+  border-radius: 25px;
+  height: 50px;
+  padding: 20px;
+  margin: 10px;
+  border: none;
+}
+
+.checkbox {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  align-items: center;
+    position: relative;
+    right: 25px;
+  font-size: 16px;
+}
+
+input[type="checkbox"] {
+  width: 24px;
+  height: 24px;
+  background-color: #ff5733 !important;
+
+}
+
+.checkbox label {
+  color: #151439;
+  opacity: 0.4;
+}
+
+.or {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.line {
+  width: 40%;
+  height: 1px;
+  background-color: #151439;
+  opacity: 0.4;
+}
+
+.or p {
+  color: #151439;
+  opacity: 0.4;
+}
+
+.btn {
+  width: 70%;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #482be7;
+  color: #ffffff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+}
+
+.btn-2 {
+  background-color: #1da1f2;
+}
+
+.acc {
+  opacity: 0.4;
+  color: #151439;
+}
+
+.link{
+    /* opacity: none; */
+    display: flex;
+    margin-top: 30px;
+}
+
+.link a{
+    color: #25DAC5;
+    margin-left: 10px;
+}
